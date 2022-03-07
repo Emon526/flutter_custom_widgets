@@ -1,6 +1,8 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_widgets/buttons/cutom_gradient_elevated_button.dart';
-import 'package:flutter_custom_widgets/views/custom_shape_gradient_gridview.dart';
+import 'buttons/cutom_gradient_elevated_button.dart';
+import 'gradient_views/custom_shape_gradient_gridview.dart';
 
 void main() {
   runApp(const MyApp());
