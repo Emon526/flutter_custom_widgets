@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_widgets/buttons/cutom_gradient_elevated_button.dart';
+import 'package:flutter_custom_widgets/views/custom_shape_gradient_gridview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CustomElevatedButton(),
+      home: const CustomShapeGridentGridView(),
     );
   }
 }
