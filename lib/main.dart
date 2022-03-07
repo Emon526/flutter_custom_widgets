@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'buttons/cutom_gradient_elevated_button.dart';
+import 'gradient_views/custom_position_gradient_stack.dart';
 import 'gradient_views/custom_shape_gradient_gridview.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CustomShapeGridentGridView(),
+      home: const CustomPositionGradientStack(),
     );
   }
 }
